@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <time.h>
+#include <omp.h>
 
 using namespace std;
 
@@ -15,6 +16,7 @@ bool isPrime(int num) {
 
 bool run_program(int N) {
     bool tmp;
+#pragma omp parallel for
     for (int i = 0; i < N; i++) tmp = isPrime(i);
     return tmp;
 }
