@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prime_Numbers", "Prime_Numbers\Prime_Numbers.vcxproj", "{F6335C03-0E0A-4CC8-911B-FB9926B62452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prime_Numbers_c_sharp", "Prime_Numbers_c_sharp\Prime_Numbers_c_sharp.csproj", "{5629F9FD-BE6D-4D77-ACDC-C55B9DBEB781}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prime_Numbers_c_sharp", "Prime_Numbers_c_sharp\Prime_Numbers_c_sharp.csproj", "{5629F9FD-BE6D-4D77-ACDC-C55B9DBEB781}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Prime_Numbers_Python", "Prime_Numbers_Python\Prime_Numbers_Python.pyproj", "{27C72C8B-F040-4F92-AE00-C175A0D2EEBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,12 @@ Global
 		{5629F9FD-BE6D-4D77-ACDC-C55B9DBEB781}.Release|x64.Build.0 = Release|Any CPU
 		{5629F9FD-BE6D-4D77-ACDC-C55B9DBEB781}.Release|x86.ActiveCfg = Release|Any CPU
 		{5629F9FD-BE6D-4D77-ACDC-C55B9DBEB781}.Release|x86.Build.0 = Release|Any CPU
+		{27C72C8B-F040-4F92-AE00-C175A0D2EEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C72C8B-F040-4F92-AE00-C175A0D2EEBD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{27C72C8B-F040-4F92-AE00-C175A0D2EEBD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{27C72C8B-F040-4F92-AE00-C175A0D2EEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C72C8B-F040-4F92-AE00-C175A0D2EEBD}.Release|x64.ActiveCfg = Release|Any CPU
+		{27C72C8B-F040-4F92-AE00-C175A0D2EEBD}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

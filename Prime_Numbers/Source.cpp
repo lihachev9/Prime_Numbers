@@ -27,7 +27,7 @@ int main() {
     start = clock();
     cout << run_program(N) << endl;
     end = clock();
-    cout << (end - start) / ((double)CLOCKS_PER_SEC);
+    cout << (end - start) / ((double)CLOCKS_PER_SEC) << endl;
     system("pause");
     return 0;
 }
